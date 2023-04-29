@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="horses-path">
+            <img src="./images/Horse1.gif" alt="horse1" id="horse1">
+            <img src="./images/horse2.gif" alt="horse2" id="horse2">
+            <img src="./images/horse3.gif" alt="horse3" id="horse3">
+        </div>
+        <div class="buttons">
+            <div class="buttons-container">
+                <button class="startButton">Start</button>
+                <select name="horses" id="horsesDropdown">
+                    <option value="none">none</option>
+                    <option value="horse1">horse1</option>
+                    <option value="horse2">horse2</option>
+                    <option value="horse3">horse3</option>
+                </select>
+                <input type="number" id="amount" min="0">
+                <button class="deposit">Deposit</button>
+            </div>
+
+
+            <div class="mywallet">
+                <h2 class="wallet">Wallet :
+                    <span class="money">
+                    </span>
+                </h2>
+
+                <h3>
+                    Deposited to : <span class="depositedHorse"></span>
+                </h3>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="script.js">
+
+
+    </script>
+</body>
+
+</html>

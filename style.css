@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: blue;
+    
+}
+.container
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    
+    }
+.horses-path {
+    margin: 100px auto;
+    width: 1200px;
+    background-color: green;
+    height: 600px;
+    display: flex;  
+    flex-direction: column;
+    border-right: 20px solid red;
+    margin-bottom: 30px;
+    
+}
+.startButton {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    font-weight: 700;
+    font-size: 14px;
+}
+.buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 50px;
+}
+.buttons-container
+{
+    display: flex;
+}
+.reStart {
+    width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        font-weight: 700;
+        font-size: 14px;
+        
+}
+.horses-path img {
+    height: 200px;
+    width: 300px;
+    
+}
+
+.mywallet {
+    display: flex;
+    align-items: center;
+    font-size: 21px;
+    float: left;
+    font-weight: 700;
+    color: greenyellow;
+    flex-direction: column;
+}
+
+.wallet h3 {
+    display: inline;
+}
