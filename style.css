@@ -74,3 +74,9 @@ body {
 .wallet h3 {
     display: inline;
 }
+
+.number-of-wins {
+    font-weight: 700;
+    font-size: 25px;
+    color: greenyellow;
+}

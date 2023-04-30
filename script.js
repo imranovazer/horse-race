@@ -22,6 +22,8 @@ class Horse {
     won() {
         if (this.depositedBy) {
             this.depositedBy.amount = this.depositedBy.amount + 2 * this.depositedAmount;
+            this.depositedBy.wonTimes = this.depositedBy.wonTimes + 1;
+            document.querySelector('.times').innerHTML = this.depositedBy.wonTimes;
 
         }
     }
@@ -29,6 +31,7 @@ class Horse {
 class MyWallet {
     constructor(amount) {
         this.amount = amount;
+        this.wonTimes = 0;
     }
 
     deposit(amount, horse) {
